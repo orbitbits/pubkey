@@ -36,7 +36,7 @@ gpg --verify release.tar.gz.asc release.tar.gz
 The public key is stored in this repository as:
 
 ```
-public.key
+pubkey.key
 
 ```
 
