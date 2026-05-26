@@ -28,9 +28,11 @@ push:
 	@git push origin $(BRANCH)
 	@git push hdd $(BRANCH)
 	@git push lab $(BRANCH)
+	@git push gitea $(BRANCH)
 
 push-lease:
 	@echo "Push com --force-with-lease"
 	@git push --force-with-lease origin $(BRANCH)
 	@git push --force-with-lease hdd $(BRANCH)
 	@git push --force-with-lease lab $(BRANCH)
+	@git push --force-with-lease gitea $(BRANCH)
